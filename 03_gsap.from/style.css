@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: gray;
+}
+#box1{
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+}
+#box2{
+    width: 250px;
+    height: 250px;
+    background-color: lightseagreen;
+}
