@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1817997711/photo/pink-blue-clouds-at-sunset-cloudy-air-flying-in-the-sky-landscape-sky-at-dawn-3d-render.jpg?s=1024x1024&w=is&k=20&c=Xyc-Gr-YgIe3oayUVyviBojsvl0eVcx-30PYmNw4QRQ=);
+   background-size: cover;
+   background-position: center;
+
+}
+#nav{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px 50px;
+    color: #fff;
+
+}
+#nav h2{
+    font-size: 30px;
+    left: 0;
+    width: 50%;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    right: 0;
+    width: 50%;
+    text-align: right;
+}
+#full{
+ height: 100%;
+ width: 40%;
+ position: absolute;
+ background-color: rgba(255, 255, 255, 0.444);
+ top: 0;
+ right: -40%;
+ /* filter: blur(30px); */
+ backdrop-filter: blur(10px);
+ padding: 150px 60px;
+
+}
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#full i{
+position: absolute;
+top: 5%;
+right: 10%;
+background-color: #fff;
+border-radius: 50%;
+padding: 5px;
+font-size: 25px;
+font-weight: 600;
+cursor: pointer;
+}
