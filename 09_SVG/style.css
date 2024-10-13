@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color:black;
+}
+#string{
+    height: 250px;  
+    width: 100%;
+    /* background-color: red; */
+}
+/* svg{
+    background-color: white;
+} */
