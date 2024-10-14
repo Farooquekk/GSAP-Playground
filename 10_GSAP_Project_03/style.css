@@ -1,0 +1,50 @@
+@font-face {
+    font-family: pak;
+    src: url();
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+body{ 
+    background-color: #111;
+}
+
+#page1, #page2, #page3{
+    height: 100vh;
+    width: 100%;
+    padding: 5vw,0;
+}
+#move{
+    background-color: #D9FF06;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+} 
+.marque img{
+height: 4vw;
+}
+
+.marue h1{ 
+font-size: 4vw;
+font-family: 'Gilroy-Regular', sans-serif;;
+}
+.marque{
+    flex-shrink:0 ;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0,1.5vw;
+    transform: translateX(-100);
+    /* background-color: red; */
+}
